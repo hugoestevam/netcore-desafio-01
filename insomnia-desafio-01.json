@@ -1,0 +1,191 @@
+{
+    "_type": "export",
+    "__export_format": 4,
+    "__export_date": "2020-04-10T20:34:33.009Z",
+    "__export_source": "insomnia.desktop.app:v7.1.1",
+    "resources": [
+        {
+            "_id": "req_3fd044db1b434f069f21c666e949eccb",
+            "authentication": {},
+            "body": {},
+            "created": 1586543965508,
+            "description": "",
+            "headers": [],
+            "isPrivate": false,
+            "metaSortKey": -1586543965508,
+            "method": "POST",
+            "modified": 1586550779093,
+            "name": "Like in Repositories",
+            "parameters": [],
+            "parentId": "wrk_6b9c3b1caa1d416d8fde8a4037a1e195",
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingFollowRedirects": "global",
+            "settingRebuildPath": true,
+            "settingSendCookies": true,
+            "settingStoreCookies": true,
+            "url": "{{ baseUrl  }}/Repositories/6fec8fda-024e-4827-9e8e-0f630bdfd13d/like",
+            "_type": "request"
+        },
+        {
+            "_id": "wrk_6b9c3b1caa1d416d8fde8a4037a1e195",
+            "created": 1586543419010,
+            "description": "",
+            "modified": 1586543419010,
+            "name": "nodejs-desafio-01",
+            "parentId": null,
+            "_type": "workspace"
+        },
+        {
+            "_id": "req_0232e23765bf449b9a288cb9b6e0ec36",
+            "authentication": {},
+            "body": {},
+            "created": 1586543898974,
+            "description": "",
+            "headers": [],
+            "isPrivate": false,
+            "metaSortKey": -1586543898974,
+            "method": "DELETE",
+            "modified": 1586550773054,
+            "name": "Repositories",
+            "parameters": [],
+            "parentId": "wrk_6b9c3b1caa1d416d8fde8a4037a1e195",
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingFollowRedirects": "global",
+            "settingRebuildPath": true,
+            "settingSendCookies": true,
+            "settingStoreCookies": true,
+            "url": "{{ baseUrl  }}/Repositories/6fec8fda-024e-4827-9e8e-0f630bdfd13d",
+            "_type": "request"
+        },
+        {
+            "_id": "req_b5dc216403f94d33a7a0c96ccdcc9583",
+            "authentication": {},
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\"url\": \"https://github.com/hugoestevam/DiarioAcademia\",\n\t\"title\": \"DiarioAcademia\",\n\t\"techs\": [\"HTML\", \"CSS\", \"AngularJS\", \"C#\"]\n}"
+            },
+            "created": 1586543821929,
+            "description": "",
+            "headers": [
+                {
+                    "id": "pair_dd4fa60e7be544f5bb9ed47f1e925ec6",
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "isPrivate": false,
+            "metaSortKey": -1586543821929,
+            "method": "PUT",
+            "modified": 1586550768531,
+            "name": "Repositories",
+            "parameters": [],
+            "parentId": "wrk_6b9c3b1caa1d416d8fde8a4037a1e195",
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingFollowRedirects": "global",
+            "settingRebuildPath": true,
+            "settingSendCookies": true,
+            "settingStoreCookies": true,
+            "url": "{{ baseUrl  }}/Repositories/6fec8fda-024e-4827-9e8e-0f630bdfd13d",
+            "_type": "request"
+        },
+        {
+            "_id": "req_ad0c434efeca49acbe72877ce78d74c3",
+            "authentication": {},
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\"url\": \"https://github.com/hugoestevam/OptimusPrime\",\n\t\"title\": \"OptimusPrime\",\n\t\"techs\": [\"HTML\", \"CSS\", \"TypeScript\", \"C#\"]\n}"
+            },
+            "created": 1586543765442,
+            "description": "",
+            "headers": [
+                {
+                    "id": "pair_155874e4e0a14b77a2075e0477d28633",
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "isPrivate": false,
+            "metaSortKey": -1586543765442,
+            "method": "POST",
+            "modified": 1586550608193,
+            "name": "Repositories",
+            "parameters": [],
+            "parentId": "wrk_6b9c3b1caa1d416d8fde8a4037a1e195",
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingFollowRedirects": "global",
+            "settingRebuildPath": true,
+            "settingSendCookies": true,
+            "settingStoreCookies": true,
+            "url": "{{ baseUrl  }}/Repositories",
+            "_type": "request"
+        },
+        {
+            "_id": "req_382d45dbfa294f8f95abe765fb1987be",
+            "authentication": {},
+            "body": {},
+            "created": 1586543447708,
+            "description": "",
+            "headers": [],
+            "isPrivate": false,
+            "metaSortKey": -1586543447708,
+            "method": "GET",
+            "modified": 1586543729851,
+            "name": "Repositories",
+            "parameters": [],
+            "parentId": "wrk_6b9c3b1caa1d416d8fde8a4037a1e195",
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingFollowRedirects": "global",
+            "settingRebuildPath": true,
+            "settingSendCookies": true,
+            "settingStoreCookies": true,
+            "url": "{{ baseUrl  }}/Repositories",
+            "_type": "request"
+        },
+        {
+            "_id": "env_622a12634ad9000f910854efe4122b02802ac348",
+            "color": null,
+            "created": 1586543419090,
+            "data": {},
+            "dataPropertyOrder": null,
+            "isPrivate": false,
+            "metaSortKey": 1586543419091,
+            "modified": 1586543419090,
+            "name": "Base Environment",
+            "parentId": "wrk_6b9c3b1caa1d416d8fde8a4037a1e195",
+            "_type": "environment"
+        },
+        {
+            "_id": "jar_622a12634ad9000f910854efe4122b02802ac348",
+            "cookies": [],
+            "created": 1586543419095,
+            "modified": 1586543419095,
+            "name": "Default Jar",
+            "parentId": "wrk_6b9c3b1caa1d416d8fde8a4037a1e195",
+            "_type": "cookie_jar"
+        },
+        {
+            "_id": "env_06152a6c705c4f218114f57dfb0c9aff",
+            "color": null,
+            "created": 1586543584546,
+            "data": {
+                "baseUrl": "http://localhost:5000"
+            },
+            "dataPropertyOrder": {
+                "&": [
+                    "baseUrl"
+                ]
+            },
+            "isPrivate": false,
+            "metaSortKey": 1586543584546,
+            "modified": 1586543642185,
+            "name": "Dev",
+            "parentId": "env_622a12634ad9000f910854efe4122b02802ac348",
+            "_type": "environment"
+        }
+    ]
+}
